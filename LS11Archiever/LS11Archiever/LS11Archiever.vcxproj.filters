@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="LS11Mod DotNet">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="アプリ本体">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="LS11Mod Native">
+      <UniqueIdentifier>{041f912a-319d-4325-9493-8b10ab3cfd19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LS11Mod Native\Source">
+      <UniqueIdentifier>{06931ec2-fefc-4b79-b337-b2888887a66e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LS11Mod Native\Header">
+      <UniqueIdentifier>{407c7229-b763-48c6-b0a7-a1c077c3cad7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LS11DotNet.cpp">
+      <Filter>LS11Mod DotNet</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>アプリ本体</Filter>
+    </ClCompile>
+    <ClCompile Include="Native\ls11_decode.cpp">
+      <Filter>LS11Mod Native\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Native\ls11_decodePack.cpp">
+      <Filter>LS11Mod Native\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Native\ls11_encode.cpp">
+      <Filter>LS11Mod Native\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Native\ls11_encodePack.cpp">
+      <Filter>LS11Mod Native\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Native\ls11_getFileData.cpp">
+      <Filter>LS11Mod Native\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Native\ls11_joinData.cpp">
+      <Filter>LS11Mod Native\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Native\ls11_outFileData.cpp">
+      <Filter>LS11Mod Native\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Native\ls11_splitData.cpp">
+      <Filter>LS11Mod Native\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LS11DotNet.h">
+      <Filter>LS11Mod DotNet</Filter>
+    </ClInclude>
+    <ClInclude Include="LS11ArchieverForm.h">
+      <Filter>アプリ本体</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>アプリ本体</Filter>
+    </ClInclude>
+    <ClInclude Include="Native\ls11_lib.h">
+      <Filter>LS11Mod Native\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Native\ls11_mod.h">
+      <Filter>LS11Mod Native\Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon.ico">
+      <Filter>リソース</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LS11Archiever.rc">
+      <Filter>リソース</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LS11ArchieverRes.resx">
+      <Filter>リソース</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
