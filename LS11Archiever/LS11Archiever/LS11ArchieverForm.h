@@ -321,7 +321,7 @@ protected:
 
 		ofdForDeCompress->InitialDirectory = "."; // ツールと同じディレクトリがデフォルト
 
-		ofdForDeCompress->Filter = "天翔記LS11圧縮ファイル(*.nb6;*.n6p)|*.nb6;*.n6p";
+		ofdForDeCompress->Filter = "天翔記LS11圧縮ファイル(*.nb6;*.n6p)|*.nb6;*.n6p|将星録LS11圧縮ファイル(*.nb7)|*.nb7";
 
 		ofdForDeCompress->FilterIndex = 1;
 
@@ -348,7 +348,7 @@ protected:
 
 		ofdForCompress->InitialDirectory = "."; // ツールと同じディレクトリがデフォルト
 
-		ofdForCompress->Filter = "天翔記LS11圧縮ファイル(*.nb6;*.n6p)|*.nb6;*.n6p";
+		ofdForCompress->Filter = "天翔記LS11圧縮ファイル(*.nb6;*.n6p)|*.nb6;*.n6p|将星録LS11圧縮ファイル(*.nb7)|*.nb7";
 
 		ofdForCompress->FilterIndex = 1;
 
