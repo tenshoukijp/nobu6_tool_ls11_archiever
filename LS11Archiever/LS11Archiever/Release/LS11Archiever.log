@@ -1,38 +1,13 @@
-﻿2022/05/08 12:22:30 にビルドを開始しました。
-     1>ノード 2 上のプロジェクト "G:\repogitory_jp\nobu6_tool_ls11_archiever\LS11Archiever\LS11Archiever\LS11Archiever.vcxproj" (Build ターゲット)。
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I./Native /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /Zi /clr /nologo /W3 /WX- /Ox /Oi /Ot /Oy- /D WIN32 /D NDEBUG /D _USING_V110_SDK71_ /D _MBCS /EHa /MD /Zp1 /GS /arch:SSE2 /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /analyze- /errorReport:prompt /clr:nostdlib LS11DotNet.cpp main.cpp Native\ls11_decode.cpp Native\ls11_decodePack.cpp Native\ls11_encode.cpp Native\ls11_encodePack.cpp Native\ls11_getFileData.cpp Native\ls11_joinData.cpp Native\ls11_outFileData.cpp Native\ls11_splitData.cpp
-         LS11DotNet.cpp
-         main.cpp
-         ls11_decode.cpp
-         ls11_decodePack.cpp
-         ls11_encode.cpp
-         ls11_encodePack.cpp
-         ls11_getFileData.cpp
-         ls11_joinData.cpp
-         ls11_outFileData.cpp
-         ls11_splitData.cpp
-         コードを生成中...
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I./Native /Zi /clr /nologo /W3 /WX- /Ox /Oi /Ot /Oy- /D WIN32 /D NDEBUG /D _USING_V110_SDK71_ /D _MBCS /EHa /MD /Zp1 /GS /arch:SSE2 /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /TP /analyze- /errorReport:prompt "C:\Users\master\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
-         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
-       ResourceCompile:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\bin\rc.exe /D _USING_V110_SDK71_ /l"0x0411" /nologo /fo"Release\LS11Archiever.res" LS11Archiever.rc 
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\repogitory_jp\nobu6_tool_ls11_archiever\LS11Archiever\Release\LS11Archiever.exe" /INCREMENTAL:NO /NOLOGO /ASSEMBLYRESOURCE:Release\LS11Archiever.LS11ArchieverRes.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"G:\repogitory_jp\nobu6_tool_ls11_archiever\LS11Archiever\Release\LS11Archiever.pdb" /SUBSYSTEM:WINDOWS,"5.01" /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /SAFESEH Release\LS11Archiever.res
-         Release\LS11DotNet.obj
-         Release\main.obj
-         Release\ls11_decode.obj
-         Release\ls11_decodePack.obj
-         Release\ls11_encode.obj
-         Release\ls11_encodePack.obj
-         Release\ls11_getFileData.obj
-         Release\ls11_joinData.obj
-         Release\ls11_outFileData.obj
-         Release\ls11_splitData.obj
-         "Release\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
-         LS11Archiever.vcxproj -> G:\repogitory_jp\nobu6_tool_ls11_archiever\LS11Archiever\Release\LS11Archiever.exe
-     1>プロジェクト "G:\repogitory_jp\nobu6_tool_ls11_archiever\LS11Archiever\LS11Archiever\LS11Archiever.vcxproj" (Build ターゲット) のビルドが完了しました。
-
-ビルドに成功しました。
-
-経過時間 00:00:04.35
+﻿  LS11DotNet.cpp
+  main.cpp
+  ls11_decode.cpp
+  ls11_decodePack.cpp
+  ls11_encode.cpp
+  ls11_encodePack.cpp
+  ls11_getFileData.cpp
+  ls11_joinData.cpp
+  ls11_outFileData.cpp
+  ls11_splitData.cpp
+  Generating Code...
+  .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+  LS11Archiever.vcxproj -> G:\repogitory_jp\nobu6_tool_ls11_archiever\LS11Archiever\Release\LS11Archiever.exe
